@@ -1,0 +1,201 @@
+body{
+	padding: 0;	
+	margin: 0;
+	background-color: #f4f5f7;
+	font-family:Roboto,sans-serif;
+}
+.container_1{
+	width: 98%;
+	margin: auto;
+	overflow: hidden;
+}
+
+/*HEADER CSS*/
+header{
+	background: #353637;
+	color: #ffffff;
+	min-height: 50px;
+	border-bottom: #32a0c2 3px solid;/*remove this*/
+}
+
+header li{
+	float: left;
+	display: inline;
+	padding: 0 10px 0 10px;
+}
+header #tmark{
+	margin-top: 15px;
+	float: left;
+}
+#tmark h1{
+	margin: 0;
+	font-size: 16px;
+	
+}
+header nav{
+	float: right;
+	margin-top: 15px;
+	font-size: 12px;
+}
+.current a{
+	color: #32a0c2;
+	font-weight: bold;
+}
+header a:hover{
+	color: #32a0c2;
+	font-weight: bold;
+}
+header a{
+	color: #ffffff;
+	text-decoration: none;
+}
+a{
+	text-decoration: none;
+}
+a:hover{
+	color: #000000;
+	font-weight: bold;
+}
+/*Bit of what we do*/
+#bitofus{
+	min-height: 100px;
+	text-align: center;
+	background: #32a0c2;
+	color: #ffffff;
+}
+/*search*/
+#asksearch{
+	color: #ffffff;
+	background: #353637;
+}
+#asksearch a:hover{
+	color: #ffffff;
+	font-weight: bold;
+}
+#asksearch a{
+	color: #32a0c2;
+}
+#asksearch h1{
+	float: left;
+}
+#asksearch form{
+	float: right;
+	margin-top: 15px;
+}
+.btn{
+	height: 38px;
+	border: 0;
+	padding-left: 20px;
+	padding-right: 20px;
+}
+#asksearch input[type="text"]{
+	
+	height: 32px;
+	width: 250px;
+}
+
+/*questions and answers*/
+#main-col{
+	float: left;
+	width: 65%;
+    border-radius: 5px;
+    border: 1px solid #73AD21;
+    margin-top: 5px;
+}
+#main-col li{
+
+    font-weight: bold;
+    color:  #32a0c2;
+    padding-top: 15px;
+    list-style: none;
+}
+#questions{
+	padding: 15px;
+}
+#userrespose li{
+	font-weight: normal;
+	display: inline;
+	padding: 0 10px 0 10px;
+	margin: 0;
+}
+ul{
+	margin: 0;
+	padding: 0;
+}
+#sidebar{
+	float: right;
+	width: 30%;
+	background: #32a0c2;
+	margin-top: 15px;
+	border-radius: 15px;
+	padding: 5px;
+}
+#sidebar h1{
+	text-align: center;
+}
+#sidebar li{
+    padding-top: 15px;
+    list-style: none;
+    color: #ffffff;
+}
+#sidebar a{
+    color: #ffffff;
+}
+#sidebar a:hover{
+	color: #cccccc;
+	font-weight: bold;
+}
+/*sign up page css*/
+.regform{
+	text-align: center;
+	background: #32a0c2;
+	width: 30%;
+	min-height: 474px;
+	margin: 0 auto;
+	border-radius: 5px;
+}
+.regform h2{
+	padding: 15px;
+
+}
+#button_reg{
+	height: 38px;
+	padding-left: 30px;
+	padding-right: 30px;
+	font-weight: bold;
+}
+#entery{
+	padding: 10px;
+}
+#entery input[type="password"]{
+	height: 42px;
+	width: 80%;
+	border-radius: 5px;
+}
+#entery input[type="email"]{
+	height: 42px;
+	width: 80%;
+	border-radius: 5px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+	text-align: center;
+	background: #32a0c2;
+	color: #ffffff;
+	padding: 20px;
+	margin-top: 20px;
+}
